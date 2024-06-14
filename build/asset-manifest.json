@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.24f1a90d.css",
+    "main.js": "/static/js/main.84adceb9.js",
+    "static/js/787.ffaee6fb.chunk.js": "/static/js/787.ffaee6fb.chunk.js",
+    "static/media/s-1.png": "/static/media/s-1.0a963a8f09a50cca1b6f.png",
+    "static/media/suncreation-logo.png": "/static/media/suncreation-logo.0a176138de962fac55cf.png",
+    "static/media/1.jpeg": "/static/media/1.7f5f2b85869881023929.jpeg",
+    "index.html": "/index.html",
+    "main.24f1a90d.css.map": "/static/css/main.24f1a90d.css.map",
+    "main.84adceb9.js.map": "/static/js/main.84adceb9.js.map",
+    "787.ffaee6fb.chunk.js.map": "/static/js/787.ffaee6fb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24f1a90d.css",
+    "static/js/main.84adceb9.js"
+  ]
+}
