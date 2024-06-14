@@ -37,9 +37,9 @@ const Home = () => {
      cancelOnInteraction={false} // should stop playing on user interaction
      interval={6000}
    >
-     <div data-src="/path/to/image-0.png" />
-     <div data-src="/path/to/image-1.png" />
-     <div data-src="/path/to/image-2.jpg" />
+     <div data-src="../images/1.jpg" />
+     <div data-src="../images/2.jpg" />
+     <div data-src="./images/4.jpg" />
    </AutoplaySlider>
           </section>
        
