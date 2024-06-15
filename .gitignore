@@ -17,4 +17,8 @@ psd
 thumb
 sketch
 
+.eslintcache
+*.cache
+.bin
+
 # End of https://www.toptal.com/developers/gitignore/api/react
