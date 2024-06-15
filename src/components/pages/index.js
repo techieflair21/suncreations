@@ -141,31 +141,6 @@ const Home = () => {
       </section>
 
       <section id="how-it-works" className="home-highlights">
-        <div className="home-highlight">
-          <div className="home-content03">
-            <div className="home-heading03">
-              <h2 className="home-header03">
-                Excepteur sint occaecat cupidatat non proident
-              </h2>
-              <p className="home-caption02">
-                Lorem ipsum dolor sit consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt.
-              </p>
-            </div>
-            <button className="button-arrow button">
-              <span className="home-text15">Read more</span>
-              <span className="home-text16">&gt;</span>
-            </button>
-          </div>
-          <div className="home-image1">
-            <img
-              alt="image"
-              src={about}
-              className="home-image2"
-            />
-            <div className="home-rectangle"></div>
-          </div>
-        </div>
         <div className="home-highlight1">
           <div className="home-image3">
             <img
