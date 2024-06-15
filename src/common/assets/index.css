@@ -1,24 +1,18 @@
-
-.header .container .menu>ul>li>a {
-    color: #fff;
-    font-size: 12px;
-    letter-spacing: 1px;
-    line-height: 60px;
-    padding: 0 10px;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all .2s linear;
-    font-weight: 600;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
 .header {
-    background: #101e53;
-    height: 60px;
+    /* background: #101e53; */
+    height: 100px;
 }
 .header .container {
     position: relative;
-    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 .header .container > * {
     position: static !important;
@@ -49,15 +43,6 @@
     height: 50px;
     transition: all 0.2s linear;
 }
-.header .container .logo a {
-    font-size: 2.5em;
-    font-weight: 600;
-    letter-spacing: 1px;
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    line-height: 60px;
-}
 .header .container .menu > ul {
     list-style: none;
     margin: 0;
@@ -75,18 +60,13 @@
     opacity: 1;
 }
 .header .container .menu > ul > li > a {
-    font-size: 12px;
+    font-size: 15px;
     letter-spacing: 1px;
-    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
     padding: 0 12px;
-    line-height: 60px;
-    -webkit-transition: all 0.2s linear;
-    -moz-transition: all 0.2s linear;
-    -o-transition: all 0.2s linear;
     transition: all 0.2s linear;
-    font-weight: 700;
+    font-weight: 500;
 }
 .header .container .menu > ul > li > a i {
     font-size: 17px;
@@ -773,8 +753,6 @@ button.MuiButtonBase-root {
 
 .copyright {
     border: 1px solid #fff;
-    width: 100% !important;
-    padding: 2px;
     color: #fff !important;
     background-color: #101e53;
 }
@@ -1082,8 +1060,7 @@ ul.footer-list-menu li a {
 
 .logo img {
     background: #FFF;
-    height: 140px;
-    margin-top: 10px;
+    max-height: 100px;
 }
 .footer-left img {
     width: inherit;
@@ -1106,9 +1083,6 @@ ul.footer-list-menu li a {
         flex-basis: 50% !important;
         flex-grow: 0;
         max-width: 50% !important;
-    }
-    .logo img {
-        margin-left: 18px;
     }
     .col-md-8.col-sm-8.col-xs-7 {
         width: 80%;
@@ -1174,25 +1148,19 @@ ul.footer-list-menu li a {
 .menu{
     display: block !important;
 }
-.logo {
-    height: 0px;
-}
     }
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
-        .featured-img{
-            float: left;
-            padding-right: 30px;
-        }
-        .featured-img + div p:first-child {
-            margin-top: 0px;
-        }
-        .menu{
-            display: block !important;
-        }
-        .logo {
-            height: 0px;
-        }
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+    .featured-img{
+        float: left;
+        padding-right: 30px;
     }
+    .featured-img + div p:first-child {
+        margin-top: 0px;
+    }
+    .menu{
+        display: block !important;
+    }
+}
   
