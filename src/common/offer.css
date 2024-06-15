@@ -14,23 +14,22 @@
   flex-direction: column;
 }
 .offer-details {
-  gap: var(--dl-space-space-unit);
-  flex: 1;
+  flex: 1 1;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
 }
 .offer-text {
-  font-size: 20px;
-  font-style: normal;
+  font-size: 18px;
   font-weight: 700;
+  color: #fff;
 }
 .offer-text1 {
-  font-size: 20px;
-  color: #000;
-}
+  font-size: 16px;
+  color: #fff;
+} 
 .offer-text2 {
-  color: #000;
+  color: #fff;
   font-size: 16px;
 }
 .home-offers a {
