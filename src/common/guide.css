@@ -18,16 +18,16 @@
   flex-direction: column;
   justify-content: center;
 }
+.home-list1 a {
+  text-decoration: none;
+}
 .guide-name {
-  color: #352B2A;
-  font-size: 20px;
-  font-style: normal;
-  font-weight: 700;
+  color: #fff;
+  font-size: 18px;
 }
 .guide-location {
-  font-style: normal;
-  font-weight: 500;
-}
+  color: #fff;
+} 
 .guide-root-class-name {
   flex: 0 0 auto;
 }

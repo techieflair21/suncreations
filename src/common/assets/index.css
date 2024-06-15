@@ -6,6 +6,10 @@ body {
 h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }
+img {
+    max-width: 100%;
+}
+
 .header {
     /* background: #101e53; */
     height: 100px;
@@ -591,22 +595,14 @@ h1,h2,h3,h4,h5,h6,p {
     display: flex;
     align-items: center;
     gap: 20px;
+    padding: 40px 140px;
+}
+.footer-left, .footer-center, .footer-right {
+    flex: 1;
 }
 figure {
     margin: 0 0 1em;
     float: left;
-}
-.footer-distributed .footer-left,
-.footer-distributed .footer-center,
-.footer-distributed .footer-right{
-	display: inline-block;
-	vertical-align: top;
-}
-
-/* Footer left */
-
-.footer-distributed .footer-left{
-	width: 35%;
 }
 
 /* The company logo */
@@ -652,14 +648,6 @@ ul.footer-list-menu li {
     list-style: square;
     color: #fff;
 }
-
-/* Footer Center */
-
-.footer-distributed .footer-center{
-	width: 30%;
-}
-
-
 .footer-center .company-sec{
 	width: 100%;
 }
@@ -741,13 +729,6 @@ button.MuiButtonBase-root {
     height: 34px;
     font-weight: 500;
     font-size: 13px;
-}
-
-
-/* Footer Right */
-
-.footer-distributed .footer-right{
-	width: 34%;
 }
 
 .copyright{
