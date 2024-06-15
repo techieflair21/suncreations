@@ -27,13 +27,16 @@
 }
 .offer-text1 {
   font-size: 20px;
-  font-style: normal;
-  font-weight: 500;
+  color: #000;
 }
 .offer-text2 {
-  max-width: 400px;
-  line-height: 24px;
+  color: #000;
+  font-size: 16px;
 }
+.home-offers a {
+  text-decoration: none;
+}
+
 @media(max-width: 991px) {
   .offer-image {
     width: 100%;

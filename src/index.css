@@ -335,7 +335,7 @@
   display: flex;
   max-width: 1440px;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 60px;
   flex-direction: column;
   padding-bottom: 10px;
 }
@@ -356,20 +356,12 @@
 }
 .home-header02 {
   color: #352B2A;
-  font-size: 60px;
-  font-style: normal;
-  text-align: center;
-  font-family: Cormorant Infant;
-  font-weight: 700;
-  line-height: 60px;
+  font-size: 40px;
 }
 .home-caption01 {
-  color: rgb(53, 43, 42);
-  font-size: 18px;
-  max-width: 600px;
+  color: #000;
+  font-size: 16px;
   text-align: center;
-  font-family: Karla;
-  line-height: 27px;
 }
 .home-sorting {
   gap: var(--dl-space-space-unit);
@@ -389,7 +381,7 @@
   opacity: 0.5;
 }
 .home-offers {
-  width: 100%;
+  width: 80%;
   display: grid;
   grid-gap: var(--dl-space-space-threeunits);
   align-items: center;

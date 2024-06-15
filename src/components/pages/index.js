@@ -13,7 +13,10 @@ import Guide from '../../common/guide'
 
 import image from "../../common/assets/img/1.jpeg"
 import image1 from "../../common/assets/img/s-1.png"
-import about from "../../images/5.png"
+import about from "../../common/assets/img/1.jpeg"
+import slider1 from "../images/1.jpg"
+import slider2 from "../images/2.jpg"
+import slider3 from "../images/4.jpg"
 
 const Home = () => {
   const AutoplaySlider = withAutoplay(AwesomeSlider);
@@ -37,9 +40,9 @@ const Home = () => {
      cancelOnInteraction={false} // should stop playing on user interaction
      interval={6000}
    >
-     <div data-src="../images/1.jpg" />
-     <div data-src="../images/2.jpg" />
-     <div data-src="./images/4.jpg" />
+     <div data-src={slider1} />
+     <div data-src={slider2} />
+     <div data-src={slider3} />
    </AutoplaySlider>
           </section>
        
@@ -53,12 +56,6 @@ const Home = () => {
               Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod
               tempor incididunt.
             </p>
-          </div>
-          <div className="home-sorting">
-            <button className="home-option-primary button">All</button>
-            <button className="button-option button">Popular</button>
-            <button className="button-option button">Featured</button>
-            <button className="button-option button">Trending</button>
           </div>
         </div>
         <div className="home-offers">
