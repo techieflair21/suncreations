@@ -582,16 +582,16 @@ h1,h2,h3,h4,h5,h6,p {
     margin: 0;
 }*/
 
-.footer-distributed{
-	background:  #101e53;
-	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
-	box-sizing: border-box;
-	width: 100%;
-	text-align: left;
-	font: bold 16px sans-serif;
-	padding: 55px 50px;
+.footer-distributed {
+    background: #101e53;
+    box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+    box-sizing: border-box;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
-
 figure {
     margin: 0 0 1em;
     float: left;
@@ -1067,11 +1067,8 @@ ul.footer-list-menu li a {
     max-height: 100px;
 }
 .footer-left img {
-    width: inherit;
-    background: #101e53;
+    height: 100px;
 }
-
-
 
   @media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
     /* For portrait layouts only */
