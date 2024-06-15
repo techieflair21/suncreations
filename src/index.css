@@ -1404,14 +1404,15 @@
 .home-container4 {
   display: contents;
 }
-.home-find.button, .home-find3.button {
+.home-find.button, .home-find3.button, input[type="submit"] {
   border-radius: 0;
   border: 0;
   padding: 10px 20px;
   background: #0f1a54;
   color: #fff;
+  cursor: pointer;
 }
-.home-find.button:hover, .home-find3.button:hover {
+.home-find.button:hover, .home-find3.button:hover, input[type="submit"]:hover {
   background: #000;
   color: #fff;
   opacity: 1;
@@ -1436,9 +1437,46 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  justify-content: center;
 }
 .arcylic_img img {
-  height: 300px;
+  height: 340px;
+}
+
+.arcylic_form {
+  display: flex;
+  gap: 50px;
+  width: 80%;
+  margin: 0 auto 80px;
+}
+.arcylic_form img {
+  height: 550px;
+}
+.arcylic_form form {
+  width: 100%;
+}
+.form_comman_style label {
+  font-size: 16px;
+  color: #2e2e38;
+  display: block;
+}
+.form_comman_style span {
+  color: red;
+}
+.form_comman_style input {
+  width: 100%;
+  padding: 12px 10px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+.form_comman_style textarea {
+  width: 100%;
+  height: 100px;
+  padding: 12px 10px;
+  border-radius: 0;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
 }
 
 @media(max-width: 991px) {
