@@ -1,97 +1,49 @@
 import React from "react";
 import Header from "../../common/header";
 import Footer from "../../common/footer";
-import { Container,CssBaseline,Avatar,Typography,Grid,TextField,Button,FormControlLabel,Checkbox,Link} from "@mui/material";
+
+import { Container,CssBaseline} from "@mui/material";
+import formImg from "../images/acrylic.webp"
 import { Helmet } from "react-helmet";
 const  ContactUs = (() =>{
+
+
 
 return(
 <>
 <Header />
-<Container >
 <Container component="main" maxWidth="xs">
-      <CssBaseline />
-      <div>
-        <Avatar ></Avatar>
-        <Typography component="h1" variant="h5">
-          Sign up
-        </Typography>
-        <form className= "noValidate">
-          <Grid container spacing={2}>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                autoComplete="fname"
-                name="firstName"
-                variant="outlined"
-                required
-                fullWidth
-                id="firstName"
-                label="First Name"
-                autoFocus
-              />
-            </Grid>
-            <Grid item xs={12} sm={6}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                id="lastName"
-                label="Last Name"
-                name="lastName"
-                autoComplete="lname"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                id="email"
-                label="Email Address"
-                name="email"
-                autoComplete="email"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <TextField
-                variant="outlined"
-                required
-                fullWidth
-                name="password"
-                label="Password"
-                type="password"
-                id="password"
-                autoComplete="current-password"
-              />
-            </Grid>
-            <Grid item xs={12}>
-              <FormControlLabel
-                control={<Checkbox value="allowExtraEmails" color="primary" />}
-                label="I want to receive inspiration, marketing promotions and updates via email."
-              />
-            </Grid>
-          </Grid>
-          <Button
-            type="submit"
-            fullWidth
-            variant="contained"
-            color="primary"
 
-          >
-            Sign Up
-          </Button>
-          <Grid container justify="flex-end">
-            <Grid item>
-              <Link href="#" variant="body2">
-                Already have an account? Sign in
-              </Link>
-            </Grid>
-          </Grid>
+      <CssBaseline />
+      <section className="arcylic_form">
+        <img src={formImg} />
+        <form>
+          <div className="form-box1 form_comman_style">
+            <label>Name <span>*</span></label>
+            <input type="text" name="name" />
+          </div>
+          <div className="form-box2 form_comman_style">
+            <label>Email <span>*</span></label>
+            <input type="email" name="email" />
+          </div>
+          <div className="form-box2 form_comman_style">
+            <label>Contact <span>*</span></label>
+            <input type="number" name="number" />
+          </div>
+          <div className="form-box2 form_comman_style">
+            <label>Address <span>*</span></label>
+            <input type="text" name="address" />
+          </div>
+          <div className="form-box2 form_comman_style">
+            <label>Message <span>*</span></label>
+            <textarea name="textarea" />
+          </div>
+          <input type="submit" name="Send Message" />
         </form>
-      </div>
+      </section>
       
     </Container>
-</Container>
+
 <Footer />
 </>)
 

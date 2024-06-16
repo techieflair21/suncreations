@@ -45,6 +45,14 @@ const Footer = () => {
     </div>
 </footer>
 <div className="copyright"> <p className="footer-company-name">Sun Creation © 2023</p></div>
+<a
+        href="https://wa.me/2348100000000"
+        class="whatsapp_float"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <i class="fa fa-whatsapp whatsapp-icon"></i>
+      </a>
 </>
     )
     

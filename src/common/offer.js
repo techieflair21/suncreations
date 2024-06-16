@@ -22,8 +22,7 @@ const Offer = (props) => {
 Offer.defaultProps = {
   image: 'f8ae1ece-a597-4603-a6d6-066768a42c4c',
   guides: '3 Local guides',
-  description:
-    'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.',
+
   location: 'Crete, Greece',
 }
 

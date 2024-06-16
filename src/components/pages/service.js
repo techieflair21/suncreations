@@ -1,11 +1,15 @@
 import React from "react";
-import { Link } from 'react-router-dom'
 import { Container } from "@mui/material";
 
 import Header from "../../common/header";
 import Footer from "../../common/footer";
-import Location from '../../common/location'
-import image1 from "../../common/assets/img/s-1.png"
+
+
+import arcylic1 from "../images/A1.jpeg"
+import arcylic2 from "../images/A2.jpeg"
+import arcylic3 from "../images/A3.jpeg"
+
+
 
 import { Helmet } from "react-helmet";
 const  Service = (() =>{
@@ -24,64 +28,18 @@ return(
 </Header>
 <Container >
     
-<section id="destinations" className="home-destinations">
-        <div className="home-video-details">
-          <div className="home-heading05">
-            <h2 className="home-header05">Spotlight destinations</h2>
-            <p className="home-caption04">
-              Lorem ipsum dolor sit consectetur adipiscing elit, sed do eiusmod
-              tempor incididunt.
-            </p>
-          </div>
-          <div className="home-video-wrapper">
-            <div className="home-tint1">
-              <img alt="image" src="/Icons/play.svg" className="home-image5" />
-            </div>
-            <video
-              src
-              poster="/Videos/spotlight-cover1-1500w.png"
-              className="home-video2"
-            ></video>
-          </div>
+<section className="arcylic_sec">
+        <h1>Our Services</h1>
+        <p>Arcyclic photo print media has revolutionized the way we display and appreciate visual art. These prints, characterized by their vibrant colors and remarkable depth, offer a unique visual experience that traditional printing methods struggle to match.</p>
+        <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
+        <div className="arcylic_img">
+            <img src={arcylic1} alt="a1" />
+            <img src={arcylic2} alt="a2" />
+            <img src={arcylic3} alt="a3" />
+            <img src={arcylic1} alt="a1" />
+            <img src={arcylic2} alt="a2" />
+            <img src={arcylic3} alt="a3" />
         </div>
-        <p className="home-caption05">
-          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae
-          ab illo inventore veritatis et quasi architecto.
-        </p>
-        <div className="home-list">
-          <Link to="/" className="home-navlink09">
-            <div className="home-location-wrapper">
-              <Location location="Bruges, Belgium"
-                background={image1}></Location>
-            </div>
-          </Link>
-          <Link to="/" className="home-navlink10">
-            <div className="home-location-wrapper1">
-              <Location
-                location="Paris, France"
-                background={image1}
-              ></Location>
-            </div>
-          </Link>
-          <Link to="/" className="home-navlink11">
-            <div className="home-location-wrapper2">
-              <Location
-                location="Bruges, Belgium"
-                background={image1}
-              ></Location>
-            </div>
-          </Link>
-          <Link to="/" className="home-navlink12">
-            <div className="home-location-wrapper3">
-              <Location
-                location="London, UK"
-                background={image1}
-              ></Location>
-            </div>
-          </Link>
-        </div>
-        <button className="home-find1 button">Find a local guide</button>
       </section>
 </Container>
 <Footer />

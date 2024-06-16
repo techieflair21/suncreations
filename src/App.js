@@ -2,8 +2,6 @@ import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './components/pages';
 import Aboutus from './components/pages/aboutus';
-import Privacy from './components/pages/privacy';
-import ImageUsagePolicy from './components/pages/ImageUsagePolicy';
 import Enquiry from './components/pages/enquiry';
 import Portfolio from './components/pages/portfolio';
 import Service from './components/pages/service';
