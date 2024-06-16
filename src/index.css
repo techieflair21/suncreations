@@ -1248,10 +1248,11 @@
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
   background-color: #477E5D;
+  width: 100%;
 }
 .home-heading09 {
   gap: var(--dl-space-space-oneandhalfunits);
-  width: 100%;
+  width: 80%;
   display: flex;
   max-width: 900px;
   align-items: center;
@@ -1714,6 +1715,7 @@
   .home-highlights {
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
+    margin: 30px 0;
   }
   .home-content03 {
     gap: var(--dl-space-space-oneandhalfunits);
@@ -1737,14 +1739,6 @@
   }
   .home-heading04 {
     gap: var(--dl-space-space-unit);
-  }
-  .home-header04 {
-    font-size: 32px;
-    line-height: 31px;
-  }
-  .home-caption03 {
-    font-size: 16px;
-    line-height: 24px;
   }
   .home-destinations {
     gap: var(--dl-space-space-twounits);
@@ -1780,8 +1774,6 @@
   }
   .home-guides {
     gap: var(--dl-space-space-twounits);
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
   }
   .home-heading06 {
     gap: var(--dl-space-space-unit);
@@ -1862,17 +1854,12 @@
   .home-element4 {
     align-items: flex-start;
   }
-  .home-find2 {
-    padding-left: var(--dl-space-space-oneandhalfunits);
-    padding-right: var(--dl-space-space-oneandhalfunits);
-  }
   .home-heading09 {
     gap: var(--dl-space-space-unit);
   }
   .home-header14 {
-    font-size: 32px;
-    line-height: 31px;
-  }
+    font-size: 24px;
+}
   .home-caption09 {
     font-size: 16px;
     line-height: 24px;
@@ -1884,6 +1871,60 @@
   .home-branding {
     max-width: 70%;
   }
+
+  .header .container {
+    width: 100%;
+}
+  .arcylic_img {
+    gap: 20px;
+    flex-direction: column;
+}
+.arcylic_img img, .arcylic_form img {
+  height: auto;
+}
+.arcylic_form {
+  gap: 30px;
+  width: 100%;
+  margin: 20px auto 20px;
+  flex-direction: column;
+}
+.gallery_sec h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.arcylic_sec {
+  width: 100%;
+  margin: 50px auto 0;
+}
+.arcylic_sec p {
+  max-width: 300px;
+  margin: 15px auto;
+}
+.arcylic_sec h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+.form_comman_style {
+  width: 90%;
+  margin: auto;
+}
+.form_comman_style input, .form_comman_style textarea {
+  width: 90%;
+}
+.home-find.button, .home-find3.button, input[type="submit"] {
+  margin: auto;
+  display: block;
+}
+.home-offers, .home-highlight1 {
+  width: 100%;
+}
+.home-header02, .home-header04 {
+  font-size: 24px;
+}
+.home-highlights {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 }
 @media(max-width: 479px) {
   .home-navbar {

@@ -454,10 +454,10 @@ img {
   .menu-button::before,
   .menu-button::after {
     display: block;
-    background-color: #fff;
+    background-color: #101d57;
     position: absolute;
-    height: 6px;
-    width: 32px;
+    height: 4px;
+    width: 26px;
     border-radius: 3px;
   }
   
@@ -488,35 +488,26 @@ img {
   }
 
   /* Making the navbar responsive by CSS Media Queries */
-@media (max-width: 700px) {
+@media (max-width: 767px) {
     .menu-button-container {
       display: flex;
-      margin-top: 30px;
     }
     .menu {
         position: absolute;
-    top: 20;
-    margin-top: 50px;
-    left: 0;
-    flex-direction: column;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background: #101e53;
-    z-index: 9999;
+        top: 20;
+        margin-top: 47px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #101e53;
+        z-index: 9999;
     }
     #menu-toggle ~ .menu li {
-      height: 0;
       margin: 0;
       padding: 0;
       border: 0;
-    }
-    #menu-toggle:checked ~ .menu li {
-        border: 1px solid #fff;
-        height: 4.5em;
-        padding: 0.5em;
-        float: left;
-        width: 100%;
     }
     .menu > li {
       display: flex;
@@ -531,6 +522,18 @@ img {
     .menu > li:not(:last-child) {
       border-bottom: 1px solid #444;
    
+    }
+    .header .container .menu > ul > li {
+        width: 100%;
+    }
+    .header .container .menu > ul > li > a {
+        display: block;
+        padding: 10px 10px;
+        color: #fff;
+        font-weight: normal;
+        background: #101e53;
+        border-bottom: 1px solid #5c5c5c;
+        font-size: 13px;
     }
   }
   
@@ -569,23 +572,7 @@ img {
     padding-left: 15px;
 }
 
-
-
-
-/*@font-face {
-    font-family: "Gilroy-Medium";
-    src: url("./Gilroy-Medium.woff") format("woff");
-    font-display: swap
-}
-
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    margin: 0;
-}*/
-
+/* footer start */
 .footer-distributed {
     background: #101e53;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -593,246 +580,55 @@ img {
     width: 100%;
     text-align: left;
     display: flex;
-    align-items: center;
     gap: 20px;
-    padding: 40px 140px;
+    padding: 100px 140px;
 }
-.footer-left, .footer-center, .footer-right {
+.footer_comman_style {
     flex: 1;
 }
-figure {
-    margin: 0 0 1em;
-    float: left;
+.footer_col1 img {
+    height: 90px;
 }
-
-/* The company logo */
-
-.footer-distributed h3{
-	color:  #ffffff;
-	font: normal 36px 'Open Sans', cursive;
-	margin: 0;
-}
-
-.footer-distributed h3 span{
-	color:  #101e53;
-}
-
-/* Footer links */
-
-.footer-distributed .footer-links{
-	color:  #ffffff;
-	margin: 20px 0 12px;
-	padding: 0;
-    font-size: 12px;
-    width: 70%;
-}
-
-.footer-distributed .footer-links a{
-	display:inline-block;
-	line-height: 1.8;
-  font-weight:400;
-	text-decoration: none;
-	color:  inherit;
-}
-
-.footer-distributed .footer-company-name{
-	color:  #fff;
-	font-size: 14px;
-	font-weight: normal;
-	margin: 0;
-}
-/* Footer Menu */
-ul.footer-list-menu li {
-    font-size: 12px;
-    padding: 4px;
-    list-style: square;
+.footer_comman_style h4 {
     color: #fff;
-}
-.footer-center .company-sec{
-	width: 100%;
-}
-
-.footer-center .left-sec{
-	float: left;
-    width: 30%;
-}
-
-.footer-center .right-sec{
-    float: left;
-    width: 50%;
-}
-.footer-distributed .footer-center i{
-	background-color:  #101e53;
-	color: #ffffff;
-	font-size: 25px;
-	width: 38px;
-	height: 38px;
-	border-radius: 50%;
-	text-align: center;
-	line-height: 42px;
-
-	vertical-align: middle;
-}
-
-.footer-distributed .footer-center i.fa-envelope{
-	font-size: 17px;
-	line-height: 38px;
-}
-
-.footer-distributed .footer-center p{
-	display: inline-block;
-	color: #ffffff;
-  font-weight:400;
-	vertical-align: middle;
-	margin:0;
-}
-
-.footer-distributed .footer-center p span{
-	display:block;
-	font-weight: bold;
-	font-size:18px;
-	line-height:2;
-    text-transform: uppercase;
-}
-
-.footer-distributed .footer-center p a{
-	color:  #101e53;
-	text-decoration: none;;
-}
-
-.footer-distributed .footer-links a:before {
-  content: "|";
-  font-weight:300;
-  font-size: 20px;
-  left: 0;
-  color: #fff;
-  display: inline-block;
-  padding-right: 5px;
-}
-.MuiDivider-root.MuiDivider-fullWidth.MuiDivider-withChildren.css-1puturl-MuiDivider-root {
-    margin: 45px 0 45px 0;
-}
-.MuiChip-root.MuiChip-filled.MuiChip-sizeMedium.MuiChip-colorDefault.MuiChip-filledDefault.css-1e8dhvr-MuiChip-root {
-    color: #fff;
-    background: #101e53;
-    font-weight: 600;
-}
-.page{
-    text-align: justify;
-    margin: 50px;
-}
-.footer-distributed .footer-links .link-1:before {
-  content: none;
-}
-button.MuiButtonBase-root {
-    color: #101e53;
-    height: 34px;
+    margin-bottom: 15px;
     font-weight: 500;
-    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 5px;
 }
-
-.copyright{
-	text-align: center;
-    justify-content: center;
+.footer_comman_style h4:before {
+    content: '';
+    background: #515151;
+    width: 40px;
+    height: 3px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.footer_comman_style p, .footer_comman_style a {
+    color: #fff;
+}
+.footer_img_box {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+.footer_img_box img {
+    max-width: 52px;
+    outline: 2px dotted #e9204f;
+    padding: 2px;
 }
 
 .copyright {
-    border: 1px solid #fff;
-    color: #fff !important;
-    background-color: #101e53;
-}
-
-.footer-distributed .footer-company-about{
-	line-height: 20px;
-	color:  #fff;
-	font-size: 12px;
-	font-weight: normal;
-	margin: 0;
-}
-
-.footer-distributed .footer-company-about span{
-	display: block;
-	color:  #ffffff;
-	font-size: 18px;
-	font-weight: bold;
-    text-transform: uppercase;
-
- 
-}
-
-ul.footer-list-menu {
-    margin: 0px;
-    padding-left: 25px;
-    margin-bottom: 20px;
-}
-
-.footer-distributed .footer-icons{
-	margin-top: 25px;
-}
-
-.footer-distributed .footer-icons a{
-    display: inline-block;
- 
-    cursor: pointer;
-    background-color: #101e53;
-    border-radius: 2px;
-    font-size: 20px;
-    color: #ffffff;
+    padding: 10px;
     text-align: center;
-    line-height: 35px;
-    margin-right: 3px;
-    margin-bottom: 5px;
-    border: 1px solid #fff;
 }
+/* footer end */
 
+/* footer responsive start */
 
-button.MuiButtonBase-root {
-    color: #fff;
-    background: #101e53;
-    padding: 5px;
-}
-button.MuiButtonBase-root:hover {
-    color: #101e53;
-    background: #fff;
-    padding: 5px;
-    border: 1px solid;
-
-}
-li {
-    text-align: justify;
-    color: #000;
-}
-
-.css-6od3lo-MuiChip-label {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    padding-left: 12px;
-    padding-right: 12px;
-    white-space: nowrap;
-    text-transform: uppercase;
-}
-
-.MuiChip-root.MuiChip-filled.MuiChip-sizeMedium.MuiChip-colorDefault.MuiChip-filledDefault.css-1e8dhvr-MuiChip-root {
-    color: #fff;
-    background: #101e53;
-    font-weight: 600;
-    height: 40px;
-}
-
-.css-1oprhov {
-    margin: 40px !important;
-}
-
-
-ul.footer-list-menu li a {
-    color: #fff;
-    text-decoration: none;
-}
-.footer-distributed .footer-icons {
-    margin-top: 25px;
-  clear: left;
-}
-/* If you don't want the footer to be responsive, remove these media queries */
+/* footer responsive end */
 
 @media (min-width:880px) {
     .menu li {
@@ -925,7 +721,6 @@ ul.footer-list-menu li a {
     margin-right: 20px;
     padding-right: 10px;
 }
-
 }
 
 
@@ -1082,15 +877,11 @@ ul.footer-list-menu li a {
     z-index: 9999;
     }
     #menu-toggle ~ .menu li {
-      height: 0;
       margin: 0;
       padding: 0;
       border: 0;
     }
-    #menu-toggle:checked ~ .menu li {
-        border: 1px solid #fff;
-        height: 4.5em;
-        padding: 0.5em;
+    #menu-toggle:checked ~ .menu li {        
         float: left;
         width: 100%;
     }
