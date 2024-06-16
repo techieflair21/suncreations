@@ -24,7 +24,6 @@ import arcylic3 from "../images/A3.jpeg"
 
 import formImg from "../images/acrylic.webp"
 
-// import * as React from 'react';
 // import ImageList from '@mui/material/ImageList';
 // import ImageListItem from '@mui/material/ImageListItem';
 

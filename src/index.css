@@ -1897,8 +1897,8 @@
   margin: 50px auto 0;
 }
 .arcylic_sec p {
-  max-width: 300px;
   margin: 15px auto;
+  padding: 0 15px;
 }
 .arcylic_sec h1 {
   font-size: 32px;
