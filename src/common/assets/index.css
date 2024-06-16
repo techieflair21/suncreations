@@ -485,60 +485,7 @@ img {
     margin-top: 0px;
   /*  transforms the hamburger icon into a cross  */
     transform: rotate(-45deg);
-  }
-
-  /* Making the navbar responsive by CSS Media Queries */
-@media (max-width: 767px) {
-    .menu-button-container {
-      display: flex;
-    }
-    .menu {
-        position: absolute;
-        top: 20;
-        margin-top: 47px;
-        left: 0;
-        flex-direction: column;
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        background: #101e53;
-        z-index: 9999;
-    }
-    #menu-toggle ~ .menu li {
-      margin: 0;
-      padding: 0;
-      border: 0;
-    }
-    .menu > li {
-      display: flex;
-      justify-content: center;
-      margin: 0;
-      padding: 0.5em 0;
-      width: 100%;
-      color: black;
-      background-color: #E8E8E8;
-      
-    }
-    .menu > li:not(:last-child) {
-      border-bottom: 1px solid #444;
-   
-    }
-    .header .container .menu > ul > li {
-        width: 100%;
-    }
-    .header .container .menu > ul > li > a {
-        display: block;
-        padding: 10px 10px;
-        color: #fff;
-        font-weight: normal;
-        background: #101e53;
-        border-bottom: 1px solid #5c5c5c;
-        font-size: 13px;
-    }
-  }
-  
-  
-
+  } 
 
 .col-xs-4 {
     width: 23.33333333%;
@@ -723,7 +670,6 @@ img {
 }
 }
 
-
 @media (max-width: 880px) {
 
     .css-1idcviy-MuiGrid-root:nth-child(1) {
@@ -838,6 +784,60 @@ img {
 	}
 }
 
+/* Making the navbar responsive by CSS Media Queries */
+@media (max-width: 767px) {
+    .menu-button-container {
+      display: flex;
+    }
+    .menu {
+        position: absolute;
+        top: 20;
+        margin-top: 47px;
+        left: 0;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        background: #101e53;
+        z-index: 9999;
+    }
+    #menu-toggle ~ .menu li {
+      margin: 0;
+      padding: 0;
+      border: 0;
+    }
+    .menu > li {
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      padding: 0.5em 0;
+      width: 100%;
+      color: black;
+      background-color: #E8E8E8;
+      
+    }
+    .menu > li:not(:last-child) {
+      border-bottom: 1px solid #444;
+   
+    }
+    .header .container .menu > ul > li {
+        width: 100%;
+    }
+    .header .container .menu > ul > li > a {
+        display: block;
+        padding: 10px 10px;
+        color: #fff;
+        font-weight: normal;
+        background: #101e53;
+        border-bottom: 1px solid #5c5c5c;
+        font-size: 13px;
+    }
+    .footer-distributed {
+        padding: 30px 20px;
+        flex-direction: column;
+    }
+  }
+  
 .logo img {
     background: #FFF;
     max-height: 100px;
