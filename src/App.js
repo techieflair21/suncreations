@@ -7,6 +7,7 @@ import Portfolio from './components/pages/portfolio';
 import Service from './components/pages/service';
 import ContactUs from './components/pages/contactus';
 import NotFoundPage from './components/pages/NotFoundPage';
+import SpecificPortfolio from './components/pages/specific-portfolio';
 import './App.css';
 import "../src/common/assets/index.css"
 
@@ -22,6 +23,7 @@ function App() {
       <Route exact path="/our-portfolio" element={<Portfolio />} />
       <Route exact path="/enquiry" element={<Enquiry />} />
       <Route exact path="/contact-us" element={<ContactUs />} />
+      <Route exact path="/portfolio/:category/" element={<SpecificPortfolio />} />
       <Route path="*" element={<NotFoundPage />} />
       <Route path="/404/" element={<NotFoundPage />} />
     </Routes>

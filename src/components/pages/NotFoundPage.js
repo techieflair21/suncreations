@@ -12,7 +12,7 @@ const NotFoundPage = () =>{
             <title >Page not found</title>
         </Helmet>
         <Header />
-        <Container >
+        <Container component="main" maxWidth="xs">
         <h2>Page not Found</h2>
 
         <p style={{textAlign:"center"}}>
