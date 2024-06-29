@@ -25,12 +25,12 @@ return(
           </div>
         </div>
         <div className="home-offers">
-          <Link to="/">
+          <Link to="/portfolio/s1">
             <div className="home-offer-container">
               <Offer image={image}></Offer>
             </div>
           </Link>
-          <Link to="/">
+          <Link to="/portfolio/s2">
             <div className="home-offer-container1">
               <Offer
               image={image1}
