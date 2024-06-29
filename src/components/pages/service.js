@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "@mui/material";
+import { Link } from 'react-router-dom'
 
 import Header from "../../common/header";
 import Footer from "../../common/footer";
@@ -33,8 +34,8 @@ return(
         <p>Arcyclic photo print media has revolutionized the way we display and appreciate visual art. These prints, characterized by their vibrant colors and remarkable depth, offer a unique visual experience that traditional printing methods struggle to match.</p>
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
-            <img src={arcylic1} alt="a1" />
-            <img src={arcylic2} alt="a2" />
+            <Link to ="/portfolio/s1"><img src={arcylic1} alt="a1" /></Link>
+            <Link to ="/portfolio/s2"> <img src={arcylic2} alt="a2" /></Link>
             <img src={arcylic3} alt="a3" />
             <img src={arcylic1} alt="a1" />
             <img src={arcylic2} alt="a2" />
