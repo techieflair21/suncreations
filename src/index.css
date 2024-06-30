@@ -1462,12 +1462,13 @@
   column-gap: 2vw;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 .portfolio_img img {
   max-height: 270px;
 }
 .arcylic_img .portfolio_title {
-  background: #666;
+  background: #2e2e38;
   color: #fff;
   display: block;
   text-align: center;
