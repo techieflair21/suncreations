@@ -1,3 +1,9 @@
+.header .svg-inline--fa {
+  color: #0d204f;
+  padding: 0 5px;
+  font-size: 18px;
+  cursor: pointer;
+}
 .home-container {
   width: 100%;
   display: flex;
@@ -579,10 +585,12 @@
 }
 .home-highlights {
   display: flex;
-  max-width: 1440px;
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
-  margin: 80px 0;
+  padding: 80px 0;
+  background: #f6f6f6;
+  margin: auto;
 }
 .home-highlight {
   gap: 120px;
@@ -1247,7 +1255,7 @@
   padding-top: var(--dl-space-space-fourunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
-  background-color: #0f1a54;
+  background-color: #477e5d;
   width: 100%;
 }
 .home-heading09 {
@@ -1408,7 +1416,7 @@
 .home-find.button, .home-find3.button, input[type="submit"] {
   border-radius: 0;
   border: 0;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background: #0f1a54;
   color: #fff;
   cursor: pointer;
@@ -1420,8 +1428,8 @@
 }
 
 .arcylic_sec {
-  width: 80%;
-  margin: 80px auto;
+  width: 93%;
+  margin: 60px auto;
 }
 .arcylic_sec h1 {
   text-align: center;
@@ -1440,31 +1448,48 @@
   gap: 30px;
   justify-content: center;
   flex-wrap: wrap;
+  margin-top: 40px;
 }
 .arcylic_img a {
-  width: 31%;
+  text-decoration: none;
 }
 .arcylic_img img {
   border: 1px solid #c4c4c4;
+}
+.arcylic_sec .arcylic_img img {
+  max-height: 300px;
 }
 .portfolio_img {
   display: flex;
   column-gap: 2vw;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 40px;
 }
 .portfolio_img img {
   max-height: 270px;
 }
+.arcylic_img .portfolio_title {
+  background: #2e2e38;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  margin-top: -6px;
+  position: relative;
+}
 
 .arcylic_form {
   display: flex;
-  gap: 50px;
+  gap: 80px;
   width: 80%;
-  margin: 0 auto 80px;
+  margin: 80px auto;
 }
 .arcylic_form img {
-  height: 550px;
+  outline: 4px solid #477e5d;
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 .arcylic_form form {
   width: 100%;
@@ -1491,10 +1516,6 @@
   border-radius: 0;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-}
-button.home-find3.button {
-  background: #fff;
-  color: #0f1a54;
 }
 
 @media(max-width: 991px) {

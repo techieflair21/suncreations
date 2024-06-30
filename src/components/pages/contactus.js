@@ -3,7 +3,7 @@ import Header from "../../common/header";
 import Footer from "../../common/footer";
 
 import { Container,CssBaseline} from "@mui/material";
-import formImg from "../images/acrylic.webp"
+import formImg from "../images/7.png"
 import { Helmet } from "react-helmet";
 const  ContactUs = (() =>{
 

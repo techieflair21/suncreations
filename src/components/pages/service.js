@@ -35,12 +35,12 @@ return(
         <p>Arcyclic photo print media has revolutionized the way we display and appreciate visual art. These prints, characterized by their vibrant colors and remarkable depth, offer a unique visual experience that traditional printing methods struggle to match.</p>
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
-            <Link to ="/portfolio/s1"><img src={arcylic1} alt="a1" /></Link>
-            <Link to ="/portfolio/s2"><img src={arcylic2} alt="a2" /></Link>
-            <Link to ="/portfolio/s3"><img src={arcylic3} alt="a3" /></Link>
-            <Link to ="/portfolio/s4"><img src={arcylic4} alt="a4" /></Link>
-            <Link to ="/portfolio/s5"><img src={arcylic5} alt="a5" /></Link>
-            <Link to ="/portfolio/s6"><img src={arcylic6} alt="a6" /></Link>
+            <Link to ="/portfolio/acrylic-glass-print"><img src={arcylic1} alt="acrylic-glass-print" /><span className="portfolio_title">ACRYLIC GLASS PRINT</span></Link>
+            <Link to ="/portfolio/outdoor-indoor-led-screens"><img src={arcylic2} alt="outdoor-indoor-led-screens" /><span className="portfolio_title">OUTDOOR/INDOOR LED SCREENS</span></Link>
+            <Link to ="/portfolio/led-letters-channel-letters"><img src={arcylic3} alt="led-letters-channel-letters" /><span className="portfolio_title">LED LETTERS/CHANNEL LETTERS</span></Link>
+            <Link to ="/portfolio/solid-acrylic-letters"><img src={arcylic4} alt="solid-acrylic-letters" /><span className="portfolio_title">SOLID ACRYLIC LETTERS</span></Link>
+            <Link to ="/portfolio/fabrication-acp-hpl-cladding"><img src={arcylic5} alt="fabrication-acp-hpl-cladding" /><span className="portfolio_title">Fabrication/ACP/HPL Cladding</span></Link>
+            <Link to ="/portfolio/retro-reflective-road-signs"><img src={arcylic6} alt="retro-reflective-road-signs" /><span className="portfolio_title">Retro Reflective Road Signs</span></Link>
         </div>
       </section>
 </Container>

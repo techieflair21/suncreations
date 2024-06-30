@@ -17,11 +17,14 @@ import slider1 from "../images/1.jpg"
 import slider2 from "../images/2.jpg"
 import slider3 from "../images/4.jpg"
 
-import arcylic1 from "../images/A1.jpeg"
-import arcylic2 from "../images/A2.jpeg"
-import arcylic3 from "../images/A3.jpeg"
+import arcylic1 from "../images/portofloio.jpg"
+import arcylic2 from "../images/portfolio2.JPG"
+import arcylic3 from "../images/portfolio3.JPG"
+import arcylic4 from "../images/portfolio04.JPG"
+import arcylic5 from "../images/portfolio01.JPG"
+import arcylic6 from "../images/portfolio5.JPG"
 
-import formImg from "../images/acrylic.webp"
+import formImg from "../images/7.png"
 
 // import * as React from 'react';
 // import ImageList from '@mui/material/ImageList';
@@ -128,15 +131,30 @@ const Home = () => {
         <p>Arcyclic photo print media has revolutionized the way we display and appreciate visual art. These prints, characterized by their vibrant colors and remarkable depth, offer a unique visual experience that traditional printing methods struggle to match.</p>
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
-            <img src={arcylic1} alt="a1" />
-            <img src={arcylic2} alt="a2" />
-            <img src={arcylic3} alt="a3" />
-            <img src={arcylic1} alt="a1" />
-            <img src={arcylic2} alt="a2" />
-            <img src={arcylic3} alt="a3" />
-            <img src={arcylic1} alt="a1" />
-            <img src={arcylic2} alt="a2" />
-            <img src={arcylic3} alt="a3" />
+            <div className="arcylic_col">
+              <img src={arcylic1} alt="acrylic-glass-print" />
+              <span className="portfolio_title">ACRYLIC GLASS PRINT</span>
+            </div>
+            <div className="arcylic_col">
+              <img src={arcylic2} alt="outdoor-indoor-led-screens" />
+              <span className="portfolio_title">OUTDOOR/INDOOR LED SCREENS</span>
+            </div>
+            <div className="arcylic_col">
+              <img src={arcylic3} alt="led-letters-channel-letters" />
+              <span className="portfolio_title">LED LETTERS/CHANNEL LETTERS</span>
+            </div>
+            <div className="arcylic_col">
+              <img src={arcylic4} alt="solid-acrylic-letters" />
+              <span className="portfolio_title">SOLID ACRYLIC LETTERS</span>
+            </div>
+            <div className="arcylic_col">
+              <img src={arcylic5} alt="fabrication-acp-hpl-cladding" />
+              <span className="portfolio_title">Fabrication/ACP/HPL Cladding</span>
+            </div>
+            <div className="arcylic_col">
+              <img src={arcylic6} alt="retro-reflective-road-signs" />
+              <span className="portfolio_title">Retro Reflective Road Signs</span>
+            </div>           
         </div>
       </section>
 
