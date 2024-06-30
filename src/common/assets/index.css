@@ -711,11 +711,6 @@ img {
     .css-1idcviy-MuiGrid-root:nth-child(4) {
         margin-left: 40%;
     }
-
-    footer.footer-distributed p {
-        padding: 0 0 0.963rem;
-    }
-
     .footer-distributed .footer-company-about span
     {
         text-align: center;
@@ -860,7 +855,11 @@ img {
     }
     .footer-distributed {
         padding: 30px 20px;
-        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .footer_col2 {
+        width: 60%;
     }
   }
   
@@ -965,5 +964,24 @@ img {
   @media (min-width: 0px) {
     div#root main { 
         max-width: none;
+    }
+  }
+  @media (max-width: 480px) {
+    .header .container {
+        width: 95%;
+    }
+    .footer_col4 img {
+        height: 70px;
+    }
+    .footer_comman_style p, .footer_comman_style a {
+        color: #fff;
+        font-size: 12px;
+        font-weight: normal;
+    }
+    .footer_col1, .footer_col3 {
+        width: 35%;
+    }
+    .footer_col2, .footer_col4 {
+        width: 60%;
     }
   }
