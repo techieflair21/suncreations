@@ -962,4 +962,8 @@ img {
         display: block !important;
     }
 }
-  
+  @media (min-width: 0px) {
+    div#root main { 
+        max-width: none;
+    }
+  }

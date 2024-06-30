@@ -1517,6 +1517,9 @@
   margin-bottom: 20px;
   border: 1px solid #ccc;
 }
+.home-hero .awssld__container {
+  padding-bottom: 500px;
+}
 
 @media(max-width: 991px) {
   .home-links {
