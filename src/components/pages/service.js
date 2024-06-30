@@ -6,11 +6,12 @@ import Header from "../../common/header";
 import Footer from "../../common/footer";
 
 
-import arcylic1 from "../images/A1.jpeg"
-import arcylic2 from "../images/A2.jpeg"
-import arcylic3 from "../images/A3.jpeg"
-
-
+import arcylic1 from "../images/portofloio.jpg"
+import arcylic2 from "../images/portfolio2.JPG"
+import arcylic3 from "../images/portfolio3.JPG"
+import arcylic4 from "../images/portfolio04.JPG"
+import arcylic5 from "../images/portfolio01.JPG"
+import arcylic6 from "../images/portfolio1.jpg"
 
 import { Helmet } from "react-helmet";
 const  Service = (() =>{
@@ -35,11 +36,11 @@ return(
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
             <Link to ="/portfolio/s1"><img src={arcylic1} alt="a1" /></Link>
-            <Link to ="/portfolio/s2"> <img src={arcylic2} alt="a2" /></Link>
-            <img src={arcylic3} alt="a3" />
-            <img src={arcylic1} alt="a1" />
-            <img src={arcylic2} alt="a2" />
-            <img src={arcylic3} alt="a3" />
+            <Link to ="/portfolio/s2"><img src={arcylic2} alt="a2" /></Link>
+            <Link to ="/portfolio/s3"><img src={arcylic3} alt="a3" /></Link>
+            <Link to ="/portfolio/s4"><img src={arcylic4} alt="a4" /></Link>
+            <Link to ="/portfolio/s5"><img src={arcylic5} alt="a5" /></Link>
+            <Link to ="/portfolio/s6"><img src={arcylic6} alt="a6" /></Link>
         </div>
       </section>
 </Container>
