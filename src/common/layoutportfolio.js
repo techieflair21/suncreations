@@ -6,10 +6,10 @@ console.log(props.images)
     return(
 <Container > 
 <section className="arcylic_sec">
-<h1>{props.title}</h1><br />
-<p>{props.content}</p>
+  <h1>{props.title}</h1>
+  <p>{props.content}</p>
 
-<div>
+    <div className="portfolio_img">
       {props.images.map((image) => (
         <img key={image.id} src={image} alt="sun creations" />
       ))}

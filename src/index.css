@@ -6,21 +6,6 @@
   align-items: center;
   flex-direction: column;
 }
-.portfolio .home-quick-view {
-
-  background-color: white;
-}
-.portfolio .home-header02 {
-  color:#19214a;
-}
-.portfolio .offer-content span {
-  color:#19214a;
-}
-.MuiContainer-root {
-  /* width: 100% !important; */
-  max-width: 100% !important;
-}
-
 .home-hero {
   display: flex;
   align-items: center;
@@ -348,6 +333,7 @@
 .home-quick-view {
   gap: 30px;
   display: flex;
+  max-width: 1440px;
   align-items: center;
   flex-direction: column;
   background: #0a1d55;
@@ -714,7 +700,6 @@
 .home-caption03 {
   color: #000;
   font-size: 16px;
-  text-align: justify;
 }
 .home-find {
   font-style: normal;
@@ -881,9 +866,10 @@
 .home-guides {
   width: 100%;
   display: flex;
+  max-width: 1440px;
   align-items: center;
   flex-direction: column;
-  background: #0f1a54;
+  background: #477e5d;
   padding: 50px 0;
 }
 .home-heading06 {
@@ -1261,7 +1247,7 @@
   padding-top: var(--dl-space-space-fourunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
-  background-color: #477E5D;
+  background-color: #0f1a54;
   width: 100%;
 }
 .home-heading09 {
@@ -1281,40 +1267,7 @@
   color: #ffffff;
   font-size: 16px;
   text-align: center;
-  max-width: 100%;
-}
-.whatsapp_float {
-  position: fixed;
-  width: 60px;
-  height: 60px;
-  bottom: 40px;
-  right: 40px;
-  background-color: #25d366;
-  color: #FFF;
-  border-radius: 50px;
-  text-align: center;
-  font-size: 30px;
-  box-shadow: 2px 2px 3px #999;
-  z-index: 100;
-}
-
-.whatsapp-icon {
-  margin-top: 16px;
-}
-
-/* for mobile */
-@media screen and (max-width: 767px) {
-  .whatsapp-icon {
-      margin-top: 10px;
-  }
-
-  .whatsapp_float {
-      width: 40px;
-      height: 40px;
-      bottom: 20px;
-      right: 10px;
-      font-size: 22px;
-  }
+  max-width: 600px;
 }
 .home-find3 {
   font-style: normal;
@@ -1488,8 +1441,20 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+.arcylic_img a {
+  width: 31%;
+}
 .arcylic_img img {
-  height: 340px;
+  border: 1px solid #c4c4c4;
+}
+.portfolio_img {
+  display: flex;
+  column-gap: 2vw;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.portfolio_img img {
+  max-height: 270px;
 }
 
 .arcylic_form {
@@ -1526,6 +1491,10 @@
   border-radius: 0;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+}
+button.home-find3.button {
+  background: #fff;
+  color: #0f1a54;
 }
 
 @media(max-width: 991px) {
@@ -1936,22 +1905,24 @@
   margin: 20px auto 20px;
   flex-direction: column;
 }
-.gallery_sec h2 {
+.gallery_sec {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  font-size: 30px;
 }
 .arcylic_sec {
   width: 100%;
   margin: 50px auto 0;
 }
 .arcylic_sec p {
-  max-width: 300px;
   margin: 15px auto;
+  padding: 0 15px;
 }
 .arcylic_sec h1 {
   font-size: 32px;
   margin-bottom: 10px;
 }
+
 .form_comman_style {
   width: 90%;
   margin: auto;
@@ -1975,9 +1946,6 @@
 }
 }
 @media(max-width: 479px) {
-  .hidden {
-    display: none;
-  }
   .home-navbar {
     padding: var(--dl-space-space-unit);
   }
