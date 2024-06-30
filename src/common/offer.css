@@ -41,3 +41,14 @@
     width: 100%;
   }
 }
+@media(max-width: 767px) {
+  .offer-details {
+    align-items: center;
+  }
+  .offer-text2 {
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+  }
+}
