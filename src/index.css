@@ -585,10 +585,12 @@
 }
 .home-highlights {
   display: flex;
-  max-width: 1440px;
+  max-width: 100%;
   align-items: center;
   flex-direction: column;
-  margin: 80px 0;
+  padding: 80px 0;
+  background: #f6f6f6;
+  margin: auto;
 }
 .home-highlight {
   gap: 120px;
@@ -1414,7 +1416,7 @@
 .home-find.button, .home-find3.button, input[type="submit"] {
   border-radius: 0;
   border: 0;
-  padding: 10px 20px;
+  padding: 10px 30px;
   background: #0f1a54;
   color: #fff;
   cursor: pointer;
@@ -1480,12 +1482,14 @@
 
 .arcylic_form {
   display: flex;
-  gap: 50px;
+  gap: 80px;
   width: 80%;
-  margin: 0 auto 80px;
+  margin: 80px auto;
 }
 .arcylic_form img {
-  height: 550px;
+  outline: 4px solid #477e5d;
+  outline-offset: 4px;
+  border-radius: 2px;
 }
 .arcylic_form form {
   width: 100%;
