@@ -22,14 +22,14 @@ setDisplay(!display);
     return (
         <div className="header">
         <div className="container">
-          <div className="col-md-4 col-sm-4 col-xs-3">
+          <div className="col-md-3 col-sm-3 col-xs-3">
             <div className="logo">
               <a href="/">
                <img src = {logo}  height="100px" alt = "Digital printing services" />
               </a>
             </div>
           </div>
-          <div className="col-md-8 col-sm-8 col-xs-7">
+          <div className="col-md-8 col-sm-8 col-xs-8">
           <input id="menu-toggle" type="checkbox" onClick={MenuToogle} />
           <label className="menu-button-container" htmlFor="menu-toggle">
             <div className="menu-button"></div>
@@ -45,7 +45,7 @@ setDisplay(!display);
               </ul>
             </div>
           </div>
-          <div className="col-md-2 col-sm-0 col-xs-2 hidden">
+          <div className="col-md-1 col-sm-1 col-xs-1 hidden">
            
             <FontAwesomeIcon icon={["fab", "facebook"]} size="xl" className="iconM"/>
             <FontAwesomeIcon icon={["fab", "twitter"]} size="xl" className="iconM"/>
