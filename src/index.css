@@ -1,3 +1,8 @@
+.header .svg-inline--fa {
+  color: #0d204f;
+  padding: 0 5px;
+  font-size: 18px;
+}
 .home-container {
   width: 100%;
   display: flex;
@@ -1247,7 +1252,7 @@
   padding-top: var(--dl-space-space-fourunits);
   flex-direction: column;
   padding-bottom: var(--dl-space-space-fourunits);
-  background-color: #0f1a54;
+  background-color: #477e5d;
   width: 100%;
 }
 .home-heading09 {
@@ -1447,6 +1452,9 @@
 .arcylic_img img {
   border: 1px solid #c4c4c4;
 }
+.arcylic_sec .arcylic_img img {
+  max-height: 300px;
+}
 .portfolio_img {
   display: flex;
   column-gap: 2vw;
@@ -1491,10 +1499,6 @@
   border-radius: 0;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-}
-button.home-find3.button {
-  background: #fff;
-  color: #0f1a54;
 }
 
 @media(max-width: 991px) {
