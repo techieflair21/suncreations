@@ -20,16 +20,11 @@ setDisplay(!display);
 
 
     return (
+      <>
+        <div className="head_top">Get Up to 20% Off for First Order Use Code "PRINT20"</div>
         <div className="header">
-        <div className="container">
-          <div className="col-md-3 col-sm-3 col-xs-3">
-            <div className="logo">
-              <a href="/">
-               <img src = {logo}  height="100px" alt = "Digital printing services" />
-              </a>
-            </div>
-          </div>
-          <div className="col-md-8 col-sm-8 col-xs-8">
+        <div className="container">          
+          <div className="menu_row">
           <input id="menu-toggle" type="checkbox" onClick={MenuToogle} />
           <label className="menu-button-container" htmlFor="menu-toggle">
             <div className="menu-button"></div>
@@ -45,8 +40,16 @@ setDisplay(!display);
               </ul>
             </div>
           </div>
-          <div className="col-md-1 col-sm-1 col-xs-1 hidden">
-           
+
+          <div className="logo_head">
+            <div className="logo">
+              <a href="/">
+               <img src = {logo}  height="100px" alt = "Digital printing services" />
+              </a>
+            </div>
+          </div>
+
+          <div className="col-md-1 col-sm-1 col-xs-1 hidden">           
             <FontAwesomeIcon icon={["fab", "facebook"]} size="xl" className="iconM"/>
             <FontAwesomeIcon icon={["fab", "twitter"]} size="xl" className="iconM"/>
             <FontAwesomeIcon icon={["fab", "instagram"]} size="xl" className="iconM"/>
@@ -54,7 +57,7 @@ setDisplay(!display);
        
         </div>
         
-      </div>)
+      </div></>)
  }
 
  export default Menu

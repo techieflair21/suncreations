@@ -132,26 +132,32 @@ const Home = () => {
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
             <div className="arcylic_col">
+              <div className="click_here">Click here!</div>
               <img src={arcylic1} alt="acrylic-glass-print" />
               <span className="portfolio_title">ACRYLIC GLASS PRINT</span>
             </div>
             <div className="arcylic_col">
+            <div className="click_here">Click here!</div>
               <img src={arcylic2} alt="outdoor-indoor-led-screens" />
               <span className="portfolio_title">OUTDOOR/INDOOR LED SCREENS</span>
             </div>
             <div className="arcylic_col">
+            <div className="click_here">Click here!</div>
               <img src={arcylic3} alt="led-letters-channel-letters" />
               <span className="portfolio_title">LED LETTERS/CHANNEL LETTERS</span>
             </div>
             <div className="arcylic_col">
+            <div className="click_here">Click here!</div>
               <img src={arcylic4} alt="solid-acrylic-letters" />
               <span className="portfolio_title">SOLID ACRYLIC LETTERS</span>
             </div>
             <div className="arcylic_col">
+            <div className="click_here">Click here!</div>
               <img src={arcylic5} alt="fabrication-acp-hpl-cladding" />
               <span className="portfolio_title">Fabrication/ACP/HPL Cladding</span>
             </div>
             <div className="arcylic_col">
+            <div className="click_here">Click here!</div>
               <img src={arcylic6} alt="retro-reflective-road-signs" />
               <span className="portfolio_title">Retro Reflective Road Signs</span>
             </div>           
@@ -321,7 +327,7 @@ and minimising the cost per page.
 
    
       
-      <section id="find" className="home-find2">
+      {/* <section id="find" className="home-find2">
         <div className="home-heading09">
           <h2 className="home-header14">Personalized Acrylic Art</h2>
           <p className="home-caption09">
@@ -329,7 +335,7 @@ and minimising the cost per page.
           </p>
         </div>
         <button className="home-find3 button">Find a Design Expert</button>
-      </section>
+      </section> */}
 
         </div>
         <Footer />
