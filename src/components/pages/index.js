@@ -13,9 +13,8 @@ import image from "../images/portofloio.jpg"
 import image1 from "../images/portfolio1.jpg"
 
 import about from "../images/office.jpeg"
-import slider1 from "../images/1.jpg"
-import slider2 from "../images/2.jpg"
-import slider3 from "../images/4.jpg"
+import slider1 from "../images/banner1.jpg"
+import slider2 from "../images/banner1.jpg"
 
 import arcylic1 from "../images/portofloio.jpg"
 import arcylic2 from "../images/portfolio2.JPG"
@@ -25,6 +24,15 @@ import arcylic5 from "../images/portfolio01.JPG"
 import arcylic6 from "../images/portfolio5.JPG"
 
 import formImg from "../images/7.png"
+
+import mansory1 from "../images/Project-1.jpeg"
+import mansory2 from "../images/Project-2.jpeg"
+import mansory5 from "../images/Project-5.jpeg"
+import mansory3 from "../images/Project-3.jpeg"
+import mansory7 from "../images/Project-7.jpeg"
+import mansory4 from "../images/Project-4.jpeg"
+import mansory8 from "../images/Project-8.jpeg"
+import mansory6 from "../images/Project-6.jpeg"
 
 // import * as React from 'react';
 // import ImageList from '@mui/material/ImageList';
@@ -122,7 +130,6 @@ const Home = () => {
    >
      <div data-src={slider1} />
      <div data-src={slider2} />
-     <div data-src={slider3} />
    </AutoplaySlider>
           </section>
        
@@ -162,6 +169,47 @@ const Home = () => {
               <span className="portfolio_title">Retro Reflective Road Signs</span>
             </div>           
         </div>
+      </section>
+
+      {/* masorry layout */}
+
+      <section id="massory_layout" className="massory_section">
+        <div className="massory_lft_col">
+            <h2>Trust Your <span>CRAZY</span> Ideas</h2>
+        </div>
+        <div className="massory_rgt_col"></div>
+      </section>
+
+      <section id="massory_main" className="massory_main">
+          <div className="massory_container">
+              <div className="manssory_img">
+                  <img src={mansory1} alt="Project-1" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory2} alt="Project-2" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory8}  alt="Project-1" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory3} alt="Project-6" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory4}  alt="Project-3" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory5}  alt="Project-5" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory6}  alt="Project-4" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory7}  alt="Project-7" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory4}  alt="Project-3" />
+              </div>
+          </div>
       </section>
 
   {/* About Us */}
