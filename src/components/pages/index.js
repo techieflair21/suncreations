@@ -14,7 +14,7 @@ import image1 from "../images/portfolio1.jpg"
 
 import about from "../images/office.jpeg"
 import slider1 from "../images/banner1.jpg"
-import slider2 from "../images/banner1.jpg"
+import slider2 from "../images/banner2.jpg"
 
 import arcylic1 from "../images/portofloio.jpg"
 import arcylic2 from "../images/portfolio2.JPG"

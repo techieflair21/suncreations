@@ -877,8 +877,7 @@ img {
     }
     .footer-distributed {
         padding: 30px 20px;
-        flex-wrap: wrap;
-        gap: 10px;
+        flex-direction: column;
     }
     .footer_col2 {
         width: 60%;

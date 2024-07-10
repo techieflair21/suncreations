@@ -1540,7 +1540,7 @@
   border: 1px solid #ccc;
 }
 .home-hero .awssld__container {
-  padding-bottom: 500px;
+  padding-bottom: 385px;
 }
 
 /* masorry layout style */
@@ -2354,18 +2354,31 @@
     padding-bottom: var(--dl-space-space-unit);
   }
   .home-hero .awssld__container {
-    padding-bottom: 300px;
+    padding-bottom: 240px;
   }
 }
 @media(max-width: 479px) {
+  .head_top {
+    font-size: 12px;
+  }
   .header .container {
-    width: 95%;
+    width: 90%;
   }
   .accordion {
     padding-top: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-oneandhalfunits);
   }
   .home-hero .awssld__container {
-    padding-bottom: 150px;
+    padding-bottom: 100px;
+  }
+  .menu_row {
+    width: auto;
+    margin-left: auto;
+    order: 3;
+  }
+  .header .logo_head {
+    position: static !important;
+    transform: none;
+    margin-right: 10%;
   }
 }
