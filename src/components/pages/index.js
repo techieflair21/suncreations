@@ -25,14 +25,19 @@ import arcylic6 from "../images/portfolio5.JPG"
 
 import formImg from "../images/7.png"
 
-import mansory1 from "../images/Project-1.jpeg"
-import mansory2 from "../images/Project-2.jpeg"
-import mansory5 from "../images/Project-5.jpeg"
-import mansory3 from "../images/Project-3.jpeg"
-import mansory7 from "../images/Project-7.jpeg"
-import mansory4 from "../images/Project-4.jpeg"
-import mansory8 from "../images/Project-8.jpeg"
-import mansory6 from "../images/Project-6.jpeg"
+import mansory1 from "../images/img001.JPG"
+import mansory2 from "../images/img002.JPG"
+import mansory5 from "../images/img003.JPG"
+import mansory3 from "../images/img004.JPG"
+import mansory7 from "../images/img005.JPG"
+import mansory4 from "../images/img006.JPG"
+import mansory8 from "../images/img007.JPG"
+import mansory6 from "../images/img008.JPG"
+import mansory9 from "../images/img009.JPG"
+import mansory10 from "../images/img0011.JPG"
+import mansory11 from "../images/img0011.JPG"
+import mansory12 from "../images/img0012.JPG"
+import mansory13 from "../images/img0013.JPG"
 
 // import * as React from 'react';
 // import ImageList from '@mui/material/ImageList';
@@ -139,32 +144,32 @@ const Home = () => {
         <p>One of the standout features of arcyclic prints is their exceptional durability. Unlike paper prints that may fade or degrade over time, arcyclic prints are known for their long-lasting vibrancy.</p>
         <div className="arcylic_img">
             <div className="arcylic_col">
-              <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/acrylic-glass-print"><div className="click_here">Click here!</div></Link>
               <img src={arcylic1} alt="acrylic-glass-print" />
               <span className="portfolio_title">ACRYLIC GLASS PRINT</span>
             </div>
             <div className="arcylic_col">
-            <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/outdoor-indoor-led-screens"><div className="click_here">Click here!</div></Link>
               <img src={arcylic2} alt="outdoor-indoor-led-screens" />
               <span className="portfolio_title">OUTDOOR/INDOOR LED SCREENS</span>
             </div>
             <div className="arcylic_col">
-            <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/led-letters-channel-letters"><div className="click_here">Click here!</div></Link>
               <img src={arcylic3} alt="led-letters-channel-letters" />
               <span className="portfolio_title">LED LETTERS/CHANNEL LETTERS</span>
             </div>
             <div className="arcylic_col">
-            <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/solid-acrylic-letters"><div className="click_here">Click here!</div></Link>
               <img src={arcylic4} alt="solid-acrylic-letters" />
               <span className="portfolio_title">SOLID ACRYLIC LETTERS</span>
             </div>
             <div className="arcylic_col">
-            <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/fabrication-acp-hpl-cladding"><div className="click_here">Click here!</div></Link>
               <img src={arcylic5} alt="fabrication-acp-hpl-cladding" />
               <span className="portfolio_title">Fabrication/ACP/HPL Cladding</span>
             </div>
             <div className="arcylic_col">
-            <div className="click_here">Click here!</div>
+              <Link to ="/portfolio/retro-reflective-road-signs"><div className="click_here">Click here!</div></Link>
               <img src={arcylic6} alt="retro-reflective-road-signs" />
               <span className="portfolio_title">Retro Reflective Road Signs</span>
             </div>           
@@ -207,7 +212,22 @@ const Home = () => {
                   <img src={mansory7}  alt="Project-7" />
               </div>
               <div className="manssory_img">
-                  <img src={mansory4}  alt="Project-3" />
+                  <img src={mansory4}  alt="Project-8" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory9}  alt="Project-9" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory10}  alt="Project-10" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory11}  alt="Project-11" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory12}  alt="Project-12" />
+              </div>
+              <div className="manssory_img">
+                  <img src={mansory13}  alt="Project-13" />
               </div>
           </div>
       </section>
@@ -245,32 +265,6 @@ and minimising the cost per page.
             <button className="home-find button">Find a Design Expert</button>
           </div>
         </div>
-      </section>
-      <section className="arcylic_form">
-        <img src={formImg} />
-        <form>
-          <div className="form-box1 form_comman_style">
-            <label>Name <span>*</span></label>
-            <input type="text" name="name" />
-          </div>
-          <div className="form-box2 form_comman_style">
-            <label>Email <span>*</span></label>
-            <input type="email" name="email" />
-          </div>
-          <div className="form-box2 form_comman_style">
-            <label>Contact <span>*</span></label>
-            <input type="number" name="number" />
-          </div>
-          <div className="form-box2 form_comman_style">
-            <label>Address <span>*</span></label>
-            <input type="text" name="address" />
-          </div>
-          <div className="form-box2 form_comman_style">
-            <label>Message <span>*</span></label>
-            <textarea name="textarea" />
-          </div>
-          <input type="submit" name="Send Message" />
-        </form>
       </section>
       
       {/* <section className="gallery_sec"> */}

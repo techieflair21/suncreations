@@ -343,7 +343,7 @@
   align-items: center;
   flex-direction: column;
   background: #e9e9e9;
-  padding: 40px 0;
+  padding: 80px 0;
 }
 .home-main1 {
   width: 100%;
@@ -1427,25 +1427,21 @@
 }
 
 .arcylic_sec {
-  width: 93%;
+  width: 80%;
   margin: 60px auto;
 }
 .arcylic_sec h1 {
-  text-align: center;
   font-size: 40px;
   margin-bottom: 20px;
   color: #352B2A;
 }
 .arcylic_sec p {
-  text-align: center;
-  max-width: 900px;
   margin: 20px auto;
 }
 .arcylic_img {
   display: flex;
   align-items: center;
   gap: 30px;
-  justify-content: center;
   flex-wrap: wrap;
   margin-top: 40px;
 }
@@ -1543,6 +1539,10 @@
   padding-bottom: 385px;
 }
 
+.css-1oqqzyl-MuiContainer-root .arcylic_sec {
+  width: 93%;
+}
+
 /* masorry layout style */
 
 .massory_section {
@@ -1576,16 +1576,16 @@
 .massory_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
   gap: 1%;
-  width: 80%;
+  width: 83%;
   margin: auto;
 }
 .manssory_img img {
-  max-height: 210px;
+  max-height: 180px;
   margin-bottom: 2%;
-  outline: 1px solid #d3d3d3;
-  outline-offset: -5px;
+  outline: 2px solid #ededed;
+  outline-offset: -4px;
+  border-radius: 10px;
 }
 
 @media(max-width: 991px) {
@@ -2017,8 +2017,9 @@
   padding: 0 15px;
 }
 .arcylic_sec h1 {
-  font-size: 24px;
+  font-size: 21px;
   margin-bottom: 10px;
+  padding: 0 15px;
 }
 
 .form_comman_style {
@@ -2036,7 +2037,13 @@
   width: 100%;
 }
 .home-header02, .home-header04 {
-  font-size: 24px;
+  font-size: 21px;
+}
+.home-heading01, .home-header04 {
+  align-items: self-start;
+}
+.home-caption01 {
+  text-align: left;
 }
 .home-highlights {
   padding-top: 0;
@@ -2052,6 +2059,9 @@
 .massory_rgt_col {
   width: 100%;
   height: 150px;
+}
+.manssory_img img {
+  max-height: 100%;
 }
 }
 @media(max-width: 479px) {
@@ -2358,9 +2368,6 @@
   }
 }
 @media(max-width: 479px) {
-  .head_top {
-    font-size: 12px;
-  }
   .header .container {
     width: 90%;
   }
@@ -2370,11 +2377,6 @@
   }
   .home-hero .awssld__container {
     padding-bottom: 100px;
-  }
-  .menu_row {
-    width: auto;
-    margin-left: auto;
-    order: 3;
   }
   .header .logo_head {
     position: static !important;

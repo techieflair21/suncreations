@@ -7,14 +7,15 @@ import './offer.css'
 const Offer = (props) => {
   return (
     <div className="offer-offer">
+      <div class="click_here">Click here!</div>
       <img alt="image" src={props.image} className="offer-image" />
-      <div className="offer-content">
+      {/* <div className="offer-content">
         <div className="offer-details">
           <span className="offer-text">{props.location}</span>
           <span className="offer-text1">{props.guides}</span>
         </div>
         <span className="offer-text2">{props.description}</span>
-      </div>
+      </div> */}
     </div>
   )
 }
