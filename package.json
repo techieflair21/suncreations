@@ -19,6 +19,7 @@
     "boundary": "^2.0.0",
     "error": "^10.4.0",
     "graphql": "^16.8.1",
+    "jquery": "^3.7.1",
     "react": "^18.2.0",
     "react-awesome-slider": "^4.1.0",
     "react-dom": "^18.2.0",
